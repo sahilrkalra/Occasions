@@ -305,10 +305,6 @@ footer  #link{
     border-bottom: 3px solid black;
 }
     
-#ver-nav{
-padding: 60px;
-}
-
 a:focus, a:hover {
     color: white;
 }
@@ -325,4 +321,21 @@ a:focus, a:hover {
 a {
     color: darksalmon;
     text-decoration: none;
+}
+
+#ver-nav, .form-control {
+width:50%;
+}
+
+#ver-nav,textarea.form-control {
+    width: 70%;
+}
+
+.contact-us,a:hover {
+    color: rgb(247, 127, 190);
+}
+
+#ver-nav{
+padding: 60px;
+padding-bottom:initial;
 }
