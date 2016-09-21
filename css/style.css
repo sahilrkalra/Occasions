@@ -129,17 +129,19 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
+
 header {
   text-align: center;
- color: white;
-     background-image: url("/images/wedding.jpg");
-    background-position:center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 100%;
-    min-height:100%; 
+  color: white;
+  background-image: url("../images/wedding.jpg");
+  background-position:center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height:100%; 
 }
+
 header .container {
   padding-top: 80%;
   padding-bottom: 50px;
@@ -286,13 +288,30 @@ section.success {
 
 #list {
   text-align: center;
-  background-color:#f4bbc2;  /*#f4bbc2*/ 
+  background-image: url("../images/partner.jpg");
+  background-position:center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height:100%;
 }
 
-.business{
+#list-frm{
+background-color:#f9f9f9;//lightgrey;  /*#f4bbc2*/ 
+text-align:center;
+}
+
+div#partner {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+div#business{
 background-color:white;
-margin-left:150px;
-margin-right:150px;
+margin-left:15%;
+//margin-right:20%;
+text-align:left;
 }
 
 #venue {
